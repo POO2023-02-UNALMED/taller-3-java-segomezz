@@ -42,7 +42,7 @@ public class Control {
 	public void setVolumen(int nuevoVolumen) {
 		tv.setVolumen(nuevoVolumen);
 }
-	public void setTv() {
+	public void setTv(TV tv) {
 		this.tv=tv;
 	}
 	public TV getTv(){
