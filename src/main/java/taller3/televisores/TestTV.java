@@ -4,7 +4,6 @@ public class TestTV {
 	public static void main(String[] args) {
 		Marca marca1 = new Marca("Semsung");
 	    Marca marca2 = new Marca("Lj");
-	    Marca marca11 =  new Marca("Mitorola");
 		
 	    TV tv1 = new TV(marca1, true);
 	    TV tv2 = new TV(marca2, false);

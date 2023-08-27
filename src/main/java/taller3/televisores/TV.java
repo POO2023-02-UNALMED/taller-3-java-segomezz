@@ -26,6 +26,7 @@ public Marca getMarca() {
 	return marca;
 }
 public void setCanal(int canal) {
+	if (estado!=false && 1<=volumen && volumen<=120)
 	this.canal=canal;
 }
 public int getCanal() {
@@ -60,14 +61,14 @@ public boolean getEstado() {
 	return estado;
 }
 public int canalUp() {
-	if (1<=canal &&  canal<=120 && estado) {
+	if (1<=canal &&  canal<120 && estado) {
 		 canal++;
 	}
 	return canal;
 	
 }
 public int canalDown() {
-	if (1<=canal &&  canal<=120 && estado) {
+	if (1<canal &&  canal<=120 && estado) {
 		 canal--;
 	}
 	return canal;
