@@ -14,4 +14,3 @@ public String getNombre() {
 	return nombre;
 }
 }
-
