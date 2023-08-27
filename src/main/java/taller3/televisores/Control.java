@@ -8,32 +8,32 @@ public class Control {
 	}
 	public void turnOff() {
         if (tv != null) {
-            tv.turnOff(); // Llama al método turnOff de la TV enlazada
+            tv.turnOff(); 
         }
 	}
 	public void turnOn() {
         if (tv != null) {
-            tv.turnOff(); // Llama al método turnOff de la TV enlazada
+            tv.turnOff(); 
         }
 	}
 	public void canalUp() {
         if (tv != null) {
-            tv.canalUp(); // Llama al método turnOff de la TV enlazada
+            tv.canalUp(); 
         }
 	}
 	public void canalDown() {
         if (tv != null) {
-            tv.canalDown(); // Llama al método turnOff de la TV enlazada
+            tv.canalDown(); 
         }
 	}
 	public void volumenUp() {
         if (tv != null) {
-            tv.volumenUp(); // Llama al método turnOff de la TV enlazada
+            tv.volumenUp(); 
         }
 	}
 	public void volumenDown() {
         if (tv != null) {
-            tv.canalDown(); // Llama al método turnOff de la TV enlazada
+            tv.canalDown(); 
         }
 	}
 	public void setCanal(int nuevoCanal) {
