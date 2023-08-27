@@ -26,7 +26,7 @@ public Marca getMarca() {
 	return marca;
 }
 public void setCanal(int canal) {
-	if (estado!=false && 1<=volumen && volumen<=120)
+	if (estado!=false && 1<=canal && canal<=120)
 	this.canal=canal;
 }
 public int getCanal() {
