@@ -33,7 +33,7 @@ public class Control {
 	}
 	public void volumenDown() {
         if (tv != null && tv.getEstado()) {
-            tv.canalDown(); 
+            tv.volumenDown(); 
         }
 	}
 	public void setCanal(int nuevoCanal) {
