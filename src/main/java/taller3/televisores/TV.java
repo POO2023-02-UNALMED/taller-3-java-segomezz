@@ -16,8 +16,8 @@ public TV(Marca marca,boolean estado) {
 public static int getNumTV() {
     return numTV;
 }
-public void setNumTV(int numTV) {
-	this.numTV=numTV;
+public static void setNumTV(int numTV) {
+	TV.numTV=numTV;
 }
 public void setMarca(Marca marca) {
 	this.marca=marca;
