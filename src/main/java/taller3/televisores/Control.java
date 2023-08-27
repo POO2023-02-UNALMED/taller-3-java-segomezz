@@ -13,7 +13,7 @@ public class Control {
 	}
 	public void turnOn() {
         if (tv != null) {
-            tv.turnOff(); 
+            tv.turnOn(); 
         }
 	}
 	public void canalUp() {
