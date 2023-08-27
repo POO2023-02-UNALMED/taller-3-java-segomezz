@@ -38,7 +38,8 @@ public int getPrecio() {
 	return precio;
 }
 public void setVolumen(int volumen) {
-	this.volumen=volumen;
+	if (estado!=false && 0<=volumen && volumen<=7) {
+	this.volumen=volumen;}
 }
 public int getVolumen() {
 	return volumen;
@@ -72,13 +73,13 @@ public int canalDown() {
 	return canal;
 }
 public int volumenUp() {
-	if (0<=volumen &&  volumen<=7 && estado) {
+	if (0<=volumen &&  volumen<7 && estado) {
 		volumen++;
 	}
 	return volumen;
 	}
 public int volumenDown() {
-	if (0<=volumen &&  volumen<=7 && estado) {
+	if (0<volumen &&  volumen<=7 && estado) {
 		volumen--;
 	}
 	return volumen;
